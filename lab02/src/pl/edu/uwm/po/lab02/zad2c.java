@@ -9,22 +9,9 @@ public class zad2c {
         int ilosc=0;
         for (int i = 0; i < a; i++) {
             System.out.println("podaj liczbę");
-            int liczba = scan.nextInt();
-            int temp = liczba%100;
-            if(temp==0) {
+            double liczba = scan.nextInt();
+            if(Math.sqrt(liczba)%2==0) {
                 ilosc=ilosc+1;
-            }
-            if(temp%64!=0) {
-                temp=temp-64;
-                if(temp%36!=0) {
-                    temp=temp-36;
-                    if(temp%16!=0) {
-                        temp=temp-16;
-                        if(temp%4==0) {
-                            ilosc=ilosc+1;
-                        }
-                    }
-                }
             }
         }
         return ilosc;
