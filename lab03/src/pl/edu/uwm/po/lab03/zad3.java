@@ -23,11 +23,15 @@ public class zad3 {
             }
         }
 
-        for (int i = 0; i < macierz1.length; i++) { //this equals to the row in our matrix.
-            for (int j = 0; j < macierz1[i].length; j++) { //this equals to the column in each row.
+        for (int i = 0; i < macierz1.length; i++) {
+            for (int j = 0; j < macierz1[i].length; j++) {
                 System.out.print(macierz1[i][j] + " ");
             }
-            System.out.println(); //change line on console as row comes to end in the matrix.
+<<<<<<< HEAD
+            System.out.println();
+=======
+            System.out.println(); 
+>>>>>>> 1752da2d6e50c5ae55a0c5477427cf25a427a361
         }
         System.out.println();
 
@@ -38,11 +42,19 @@ public class zad3 {
             }
         }
 
-        for (int i = 0; i < macierz2.length; i++) { //this equals to the row in our matrix.
-            for (int j = 0; j < macierz2[i].length; j++) { //this equals to the column in each row.
+<<<<<<< HEAD
+        for (int i = 0; i < macierz2.length; i++) {
+            for (int j = 0; j < macierz2[i].length; j++) {
                 System.out.print(macierz2[i][j] + " ");
             }
-            System.out.println(); //change line on console as row comes to end in the matrix.
+            System.out.println();
+=======
+        for (int i = 0; i < macierz2.length; i++) { 
+            for (int j = 0; j < macierz2[i].length; j++) { 
+                System.out.print(macierz2[i][j] + " ");
+            }
+            System.out.println(); 
+>>>>>>> 1752da2d6e50c5ae55a0c5477427cf25a427a361
         }
         System.out.println();
 
@@ -59,11 +71,19 @@ public class zad3 {
             }
         }
 
-        for (int i = 0; i < macierzwynik.length; i++) { //this equals to the row in our matrix.
-            for (int j = 0; j < macierzwynik[i].length; j++) { //this equals to the column in each row.
+<<<<<<< HEAD
+        for (int i = 0; i < macierzwynik.length; i++) {
+            for (int j = 0; j < macierzwynik[i].length; j++) {
                 System.out.print(macierzwynik[i][j] + " ");
             }
-            System.out.println(); //change line on console as row comes to end in the matrix.
+            System.out.println();
+=======
+        for (int i = 0; i < macierzwynik.length; i++) { 
+            for (int j = 0; j < macierzwynik[i].length; j++) { 
+                System.out.print(macierzwynik[i][j] + " ");
+            }
+            System.out.println(); 
+>>>>>>> 1752da2d6e50c5ae55a0c5477427cf25a427a361
         }
 
     }
