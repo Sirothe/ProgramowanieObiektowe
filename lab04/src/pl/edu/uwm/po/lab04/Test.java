@@ -37,8 +37,8 @@ public class Test {
         //plikwyraz test1 = new plikwyraz();
         //test1.plikwyraz(testtablica);
 
-        //szachownica test1 = new szachownica();
-        //System.out.print(test1.szachownica(5));
+        szachownica test1 = new szachownica();
+        System.out.print(test1.szachownica(8));
 
         //kapital test1 = new kapital();
         //System.out.print(test1.kapital(1000,0.2,2));
