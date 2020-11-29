@@ -16,11 +16,11 @@ public class Osoba implements Comparable<Osoba> {
     public LocalDate getDataUrodzenia() {
         return dataUrodzenia;
     }
-    @Override
+    @Override //lab11
     public String toString() {
         return this.getClass().getSimpleName()+"["+this.nazwisko+" "+this.dataUrodzenia+"]";
     }
-    @Override
+    @Override //lab11
     public boolean equals(Object ob) {
         Osoba osoba = (Osoba)ob;
         return (osoba.nazwisko.equals(this.nazwisko) && osoba.dataUrodzenia.equals(this.dataUrodzenia));

@@ -7,11 +7,11 @@ public class Student extends Osoba implements Cloneable,Comparable<Osoba> {
         super(nazwisko, dataUr);
         this.srednia=srednia;
     }
-    @Override
+    @Override //lab11
     public String toString () {
         return this.getClass().getSimpleName()+"["+this.getNazwisko()+" "+this.getDataUrodzenia()+" "+this.srednia+"]";
     }
-    @Override
+    @Override //lab11
     public int compareTo(Osoba os) {
         int temp = super.compareTo(os);
         if((os instanceof Student) && (temp==0)) {

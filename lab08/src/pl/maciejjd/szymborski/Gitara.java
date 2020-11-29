@@ -6,7 +6,7 @@ public class Gitara extends Instrument{
     public Gitara(String producent, LocalDate rokProdukcji){
         super(producent, rokProdukcji);
     }
-    @Override
+    @Override //lab11
     public String dzwiek(){
         return "brzdek";
     }

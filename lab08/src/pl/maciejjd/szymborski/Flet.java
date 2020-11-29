@@ -6,7 +6,7 @@ public class Flet extends Instrument{
     public Flet(String producent, LocalDate rokProdukcji){
         super(producent,rokProdukcji);
     }
-    @Override
+    @Override //lab11
     public String dzwiek(){
         return "fii fiii";
     }

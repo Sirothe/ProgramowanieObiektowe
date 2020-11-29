@@ -27,7 +27,7 @@ public class Pracownik extends Osoba {
         double podwyzka = this.pobory * procent / 100;
         this.pobory += podwyzka;
     }
-    @Override
+    @Override //lab11
     public String getOpis()
     {
         return String.format("pracownik zatrudniony w : %s pensja : %.2f zł", this.dataZatrudnienia.toString(),this.pobory);

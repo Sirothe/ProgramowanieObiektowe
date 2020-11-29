@@ -6,7 +6,7 @@ public class Saxophone extends Instrument{
     public Saxophone(String producent, LocalDate rokProdukcji){
         super(producent, rokProdukcji);
     }
-    @Override
+    @Override //lab11
     public String dzwiek(){
         return "tu  tutururururu tu";
     }

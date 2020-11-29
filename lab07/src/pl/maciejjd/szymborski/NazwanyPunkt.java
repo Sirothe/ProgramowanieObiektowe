@@ -7,7 +7,7 @@ class NazwanyPunkt extends Punkt
         super(x, y);
         this.name = name;
     }
-    @Override
+    @Override //lab11
     public void show()
     {
         System.out.println(name + ":<" + x() + ", " + y() + ">");
