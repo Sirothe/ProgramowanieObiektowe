@@ -16,7 +16,7 @@ public class Student extends Osoba{
     public double getSredniaOcen() {
         return this.sredniaOcen;
     }
-
+    @Override
     public String getOpis()
     {
         return "student na kierunku studiow: " + this.kierunek + " ze srednia: "+this.sredniaOcen;
