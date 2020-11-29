@@ -44,9 +44,9 @@ public class Test {
         Pracownik[] personel = new Pracownik[3];
 
         // wypełnij tablicę danymi pracowników
-        personel[0] = new Pracownik("Karol Cracker", 75000, 2001, 12, 15);
-        personel[1] = new Pracownik("Henryk Hacker", 50000, 2003, 10, 1);
-        personel[2] = new Pracownik("Antoni Tester", 40000, 2005, 3, 15);
+        personel[0] = new Pracownik("Pracownik A", 73000, 2002, 10, 15);
+        personel[1] = new Pracownik("Pracownik B", 42000, 1999, 11, 1);
+        personel[2] = new Pracownik("Pracownik C", 38000, 2004, 3, 17);
 
         // zwiększ pobory każdego pracownika o 20%
         for (Pracownik e : personel) {
