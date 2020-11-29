@@ -57,6 +57,6 @@ public class Test {
             System.out.print("nazwisko = " + e.nazwisko() + "\tpobory = " + e.pobory());
             System.out.printf("\tdataZatrudnienia = %tF\n", e.dataZatrudnienia());
         }
-        System.out.println();
+        System.out.println(); //
     }
 }
